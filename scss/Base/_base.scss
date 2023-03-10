@@ -1,0 +1,84 @@
+body {
+  @include mixinTransitionIn;
+
+  animation: transitionIn 1s;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.active_page { //Active is already used in FAQ
+  border-bottom: 2px solid #8e8aca;
+}
+
+
+p {
+  line-height: 1.5;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+
+
+a:visited {
+  color: #6c757d;
+}
+
+/* Form styles */
+input,
+label {
+  display: block;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+
+}
+
+.button {
+  padding: 1rem;
+  color: #ffff;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: rgb(251, 77, 77);
+
+
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none;
+  }
+}

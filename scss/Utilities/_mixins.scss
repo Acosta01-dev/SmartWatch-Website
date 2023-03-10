@@ -1,0 +1,14 @@
+@mixin mixinTransitionIn {
+    @keyframes transitionIn {
+        from {
+            opacity: 0;
+
+        }
+
+        to {
+            opacity: 1;
+
+        }
+    }
+}
+
