@@ -39,7 +39,7 @@ try {
     );
   } else {
     // Hide button if it supports webShareAPI
-    btn.style.display = "";
+    btn.style.display = "none";
     console.error("Your Browser doesn't support Web Share API");
     document.write("Your Browser doesn't support Web Share API");
   }
