@@ -127,10 +127,17 @@ button {
 .custom-shape-divider-bottom-1677745167 .shape-fill {
   fill: #FFFFFF; }
 
-@media only screen and (max-width: 576px) {
-  /* CSS rules for mobile devices */
+@media screen and (min-height: 895px) and (max-height: 1000px) {
   .custom-shape-divider-bottom-1677745167 svg {
-    height: 290px; } }
+    height: 550px; } }
+
+@media only screen and (max-width: 476px) {
+  .custom-shape-divider-bottom-1677745167 svg {
+    height: 450px; } }
+
+@media only screen and (max-width: 376px) {
+  .custom-shape-divider-bottom-1677745167 svg {
+    height: 250px; } }
 
 /* Style the header */
 header {
@@ -423,6 +430,12 @@ footer {
   .middle_text h3 {
     font-size: 4.6rem; } }
 
+@media screen and (min-height: 895px) {
+  .middle_intro {
+    margin-top: 1rem;
+    position: relative;
+    bottom: 8rem; } }
+
 @media only screen and (min-width: 1300px) {
   .top {
     position: relative;
@@ -584,6 +597,10 @@ footer {
     background-color: #7d7d7d;
     position: relative;
     bottom: 1rem; } }
+
+@media screen and (min-height: 800px) and (max-height: 1000px) {
+  .faq {
+    height: 70vh; } }
 
 .wheretobuy_content {
   margin: auto;

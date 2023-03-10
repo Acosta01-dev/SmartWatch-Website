@@ -282,14 +282,23 @@
     
 
     h3{
-        font-size: 4.6rem;
-
+        font-size: 4.6rem
     }
 }
 
 }
 
 
+@media screen and (min-height: 895px) {
+    .middle_text {
+    }    
+    .middle_intro {
+        margin-top: 1rem;
+
+        position: relative;
+        bottom: 8rem;
+    }
+}
 
 
 

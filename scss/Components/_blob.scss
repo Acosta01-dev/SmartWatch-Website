@@ -5,7 +5,7 @@
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    
+
 
 }
 
@@ -14,28 +14,41 @@
     display: block;
     width: calc(163% + 1.3px);
 
-    
+
     height: 500px;
-    
+
     z-index: 0;
 
 
 }
+
 .custom-shape-divider-bottom-1677745167 .shape-fill {
     fill: #FFFFFF;
 
 }
-@media only screen and (min-width: 1281px) {
+
+
+@media screen and (min-height: 895px) and (max-height: 1000px) {
     .custom-shape-divider-bottom-1677745167 svg {
+        height: 550px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 476px) {
+  
+    .custom-shape-divider-bottom-1677745167 svg {
+        height: 450px;
+
     }
 }
 
-@media only screen and (max-width: 576px) {
-    /* CSS rules for mobile devices */
+@media only screen and (max-width: 376px) {
+
 
     .custom-shape-divider-bottom-1677745167 svg {
-        height: 290px;
+        height: 250px;
 
     }
 }
-
